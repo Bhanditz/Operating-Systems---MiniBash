@@ -2,12 +2,11 @@ Mitris Victor
 334 CC
 Homework 2 MINI-SHELL
 
-Cerinta:
-	Implementation unui mini-shell
+Implementation unui mini-shell
 
 I used the parser received.
 
-For the implementation of the extern commands I declared ext_comanda functions whics has the folloswing paramters:
+For the implementation of the extern commands I declared ext_comanda functions which has the following paramters:
 	*a vector of char*
 	*a struct simple_comand_t
 This function creates a child, redirects to stdin, stdout and stderr based on in, out and err fields in struct and executes the command returning Exit_Failure if it failes.
